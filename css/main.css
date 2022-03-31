@@ -1,0 +1,31 @@
+html,body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+.control{
+width: 20%;
+}
+.control div{
+    margin: 10px 0;
+}
+.control input{
+    display: block;
+}
+#content{
+    width: 80%;
+    display: block
+}
+#content > div{
+    display: inline-block;
+    width: 20%;
+}
+#content div img{
+    width: 100%;
+}
+.remove{
+    background-color: red;
+    color: white;
+}
